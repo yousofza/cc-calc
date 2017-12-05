@@ -1,9 +1,3 @@
-/**
- * User: Troy
- * Date: 3/1/14
- * Time: 9:38 AM
- */
-
 
 var rnc = rnc || {};
 
@@ -149,11 +143,10 @@ rnc.Display = function () {
   };
 }();
 
-//(function (rnc, $) {
 rnc.calculator = function () {
   rnc.Display.init($("#displayPanel")[0]);
 
-  $(".key").on('touchstart', function (event) {
+  $(".key").on('touchstart click', function (event) {
     var key = $(this).attr("data-rnc-tag"),
       id = this.id;
 
@@ -205,6 +198,3 @@ rnc.calculator = function () {
     return false;
   });
 }
-
-
-//}(rnc, jQuery));

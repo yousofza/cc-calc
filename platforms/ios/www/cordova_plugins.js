@@ -3,6 +3,7 @@ module.exports = [
     {
         "file": "plugins/org.apache.cordova.console/www/console-via-logger.js",
         "id": "org.apache.cordova.console.console",
+        "pluginId": "org.apache.cordova.console",
         "clobbers": [
             "console"
         ]
@@ -10,6 +11,7 @@ module.exports = [
     {
         "file": "plugins/org.apache.cordova.console/www/logger.js",
         "id": "org.apache.cordova.console.logger",
+        "pluginId": "org.apache.cordova.console",
         "clobbers": [
             "cordova.logger"
         ]
@@ -17,6 +19,7 @@ module.exports = [
     {
         "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
         "id": "org.apache.cordova.statusbar.statusbar",
+        "pluginId": "org.apache.cordova.statusbar",
         "clobbers": [
             "window.StatusBar"
         ]

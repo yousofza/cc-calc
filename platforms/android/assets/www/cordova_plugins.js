@@ -3,6 +3,7 @@ module.exports = [
     {
         "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
         "id": "org.apache.cordova.statusbar.statusbar",
+        "pluginId": "org.apache.cordova.statusbar",
         "clobbers": [
             "window.StatusBar"
         ]

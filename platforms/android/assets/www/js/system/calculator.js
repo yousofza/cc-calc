@@ -146,7 +146,7 @@ rnc.Display = function () {
 rnc.calculator = function () {
   rnc.Display.init($("#displayPanel")[0]);
 
-  $(".key").on('touchstart', function (event) {
+  $(".key").on('touchstart click', function (event) {
     var key = $(this).attr("data-rnc-tag"),
       id = this.id;
 
